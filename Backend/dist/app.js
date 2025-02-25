@@ -9,3 +9,4 @@ dotenv_1.default.config();
 const app = (0, express_1.default)();
 const PORT = process.env.PORT;
 app.listen(PORT, () => console.log(`server is running : ${PORT}`));
+const hello = [1, 23, 4,];
