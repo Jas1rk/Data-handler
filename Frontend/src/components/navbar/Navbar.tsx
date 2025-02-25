@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import {
   Navbar,
   NavbarBrand,
@@ -15,7 +15,7 @@ import {
 import Logo from "../Logo/Logo";
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
   const menuItems = [
     "Profile",
